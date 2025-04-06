@@ -204,6 +204,11 @@ a {
       position: absolute;
     }
 
+    h3 {
+        color: #ff3131;
+        font-family: "Space Mono", serif;
+    }
+
     .german-hd {
         width: 65%;
         background-color: rgb(135, 135, 173);
