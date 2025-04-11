@@ -1,15 +1,106 @@
 body {
-  background-image: url('photos/page\ 4.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+
+ 
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+
+
   animation: fadeIn 1.5s ease-in-out forwards;
 }
 
+.tri-1 {
+  position: absolute;
+  top: -12.5%;
+  left: -17%;
+  width: 40%;
+}
+
+.tri-2 {
+  position: absolute;
+  top: -12.5%;
+  left: -7%;
+  width: 40%;
+}
+
+.tri-3 {
+  position: absolute;
+  top: -12.5%;
+  width: 40%;
+}
+
+.tri-4 {
+  position: absolute;
+  top: -12.5%;
+  left: 8%;
+  width: 40%;
+}
+
+.tri-5 {
+  position: absolute;
+  top: -12.5%;
+  left: 15.9%;
+  width: 40%;
+}
+
+.tri-6 {
+  position: absolute;
+  top: -12.5%;
+  left: 23.8%;
+  width: 40%;
+}
+
+.tri-7 {
+  position: absolute;
+  top: -12.5%;
+  left: 31.7%;
+  width: 40%;
+}
+
+.tri-8 {
+  position: absolute;
+  top: -12.5%;
+  left: 39.6%;
+  width: 40%;
+}
+
+.tri-9 {
+  position: absolute;
+  top: -12.5%;
+  left: 47.4%;
+  width: 40%;
+}
+
+.tri-10 {
+  position: absolute;
+  top: -12.5%;
+  left: 55.2%;
+  width: 40%;
+}
+
+.tri-11 {
+  position: absolute;
+  top: -12.5%;
+  left: 63%;
+  width: 40%;
+}
+
+.tri-12 {
+  position: absolute;
+  top: -12.5%;
+  left: 70.8%;
+  width: 40%;
+}
+
+.tri-13 {
+  position: absolute;
+  top: -12.5%;
+  left: 76.8%;
+  width: 40%;
+}
+
+
 a {
+  
 
   display: block;
   max-width: 100%;
@@ -18,7 +109,7 @@ a {
 
 html {
   overflow-x: hidden;
-  overflow-y: hidden;
+
 }
 
 
