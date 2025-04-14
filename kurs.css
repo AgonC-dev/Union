@@ -1,10 +1,6 @@
 body {
-
- 
   width: 100%;
   height: 100%;
-
-
   animation: fadeIn 1.5s ease-in-out forwards;
 }
 
@@ -109,7 +105,7 @@ a {
 
 html {
   overflow-x: hidden;
-
+  overflow-y: hidden;
 }
 
 
@@ -119,7 +115,6 @@ img {
   top: 3%;
   width: 20%;
   max-width: 100%;
-  height: auto;
   display: block;
   left: 42%;
 
@@ -199,11 +194,74 @@ img {
   font-family: "Space Mono", serif;
 }
 
+@media (max-width: 768px) {
+
+   body, html {
+     overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+   }
+   
+   
+
+  .tri-1, .tri-2, .tri-3, .tri-4,  .tri-5,  .tri-6,  .tri-7,  .tri-8,  .tri-9,  .tri-10,  .tri-11,  .tri-12,  .tri-13 {
+    display: none;
+    opacity: none;
+    position: absolute;
+  } 
+
+  a {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+ img {
+
+  position: static;
+  height: auto;
+  display: block;
+  width: 30%;
+  margin: 0;
+
+ }
+
+ .container {
+  margin-top: 6%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+ }
+
+ .math-container {
+  background-color: #f6b3b3;
+  padding: 5%;
+  border-radius: 20px;
+ }
+
+ .english-container {
+  background-color: #c5c8f5;
+  padding: 7%;
+  margin-right: 2%;
+  border-radius: 20px;
+ }
+
+ .french-container {
+  background-color: #fff4b8;
+  padding: 7%;
+  border-radius: 20px;
+ }
+}
+
 @media (max-width: 480px) {
   body {
     background-image: none;
-    overflow-x: hidden;
+    padding-bottom: 0;
     margin: 0;
+    overflow-x: hidden;
   }
 
   html {
@@ -228,18 +286,20 @@ img {
   
   .container {
     margin-top: 0;
+   
     flex-direction: column;
-    height: fit-content;
+    max-width: 100%;
     align-items: center;
-    overflow-x: hidden;
+
     width: 100%;
     gap: 20px;
   }
   
   .math-container {
     background-color: #f6b3b3;
-    margin: 0;
-    width: 90%;
+ 
+    width: 78%;
+    
     border-radius: 20px;
   }
 
@@ -250,13 +310,14 @@ img {
   .english-container {
     background-color: #c5c8f5;
     border-radius: 20px;
-    width: 90%;
+    width: 75%;
+   
   }
 
   .french-container {
     background-color: #fff4b8;
     border-radius: 20px;
-    width: 90%;
+    width: 75%;
   }
 
   .footer {
