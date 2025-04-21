@@ -202,7 +202,7 @@ a {
         width: 90%;
         background-color: rgb(226, 141, 145);
         border-radius: 20px;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: space-evenly;
      }
     
@@ -290,6 +290,8 @@ a {
         background-color: rgba(255, 255, 0, 0.747);
         width: 90%;
         margin: 1.5% auto;
+        display: flex;
+        flex-wrap: wrap;
         border-radius: 20px;
     }
 
@@ -330,7 +332,7 @@ a {
 
     body {
         overflow-x: hidden;
-
+        padding-bottom: 0%;
     }
     
     .heading {
@@ -392,10 +394,10 @@ a {
 
     nav {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+     
         text-align: center;
-        width: 95%;
+        width: 100%;
+        flex-wrap: wrap;
         background-color: transparent;
         border-radius: 20px;
         margin-top: 3%;
@@ -437,11 +439,20 @@ a {
         justify-content: center;
     }
 
-    .math-hd, .german-hd, .freng-hd {
+     .freng-hd {
       font-size: 18px;
       text-align: center;
       margin: 2%;
       letter-spacing: 1.5px;
+    }
+
+    .math-hd, .german-hd {
+        font-size: 18px;
+        text-align: center;
+        margin: 2%;
+        padding: 3.5% 3%;
+        width: 62%;
+        letter-spacing: 1.5px;
     }
 
     .title {

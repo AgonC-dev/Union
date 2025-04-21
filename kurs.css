@@ -194,6 +194,18 @@ img {
   font-family: "Space Mono", serif;
 }
 
+@media (max-width: 1669px) {
+   .container {
+    margin-top: 21%;
+   }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    margin-top: 30%;
+  }
+}
+ 
 
 @media (max-width: 1024px) {
   
